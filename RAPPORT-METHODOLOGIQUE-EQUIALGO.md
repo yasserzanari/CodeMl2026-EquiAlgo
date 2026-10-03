@@ -88,7 +88,7 @@ Trois sous-agents ont travaillé en parallèle, puis les résultats ont été in
 
 **Gouvernance et pitch.** `PLAN-GOUVERNANCE-EQUIALGO.md` précise responsables par rôle, fréquences, seuils proposés, actions, recours et conditions de reprise. Les seuils sont des propositions à approuver, pas des prescriptions des organisateurs. `presentation.pdf` et `PITCH-EQUIALGO.md` couvrent sept diapositives en cinq minutes visées. La source PPTX éditable est dans `artifacts/equialgo/complements_20261003/presentation/output/presentation.pptx`.
 
-**Portabilité et partage.** Le vérificateur historique résout désormais les chemins de provenance relativement au dossier du projet ; il a été exécuté avec succès depuis une copie située ailleurs. `requirements-equialgo.txt` fige l'environnement Python. Les dépendances `artifacts/` doivent accompagner les fichiers racine. `CONFORMITE-EQUIALGO.md` distingue preuves locales et étapes humaines restantes. Aucun remote GitHub n'est configuré à la racine ; aucun accès des juges n'a été confirmé ou créé.
+**Portabilité et partage.** Le vérificateur historique résout désormais les chemins de provenance relativement au dossier du projet ; il a été exécuté avec succès depuis une copie située ailleurs. `requirements-equialgo.txt` fige l'environnement Python. Les dépendances `artifacts/` doivent accompagner les fichiers racine. `CONFORMITE-EQUIALGO.md` distingue preuves locales et étapes humaines restantes. Le dépôt public `https://github.com/yasserzanari/CodeMl2026-EquiAlgo` a été créé et son accessibilité vérifiée; l'envoi HxBuddy et la soumission Devpost restent à faire.
 
 ## Reproduire et soumettre manuellement
 

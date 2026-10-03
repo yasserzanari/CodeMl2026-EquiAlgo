@@ -15,7 +15,7 @@ Date : 3 octobre 2026. Objet : dossier local destiné au jury, après complémen
 | Graphique de Pareto, plusieurs contraintes | Dix valeurs de ε, allocation sous budget, frontière historique tracée, diagnostic séparé de la politique finale | Livré dans le notebook et `pareto/front_pareto_contrainte.png` ; front auxiliaire, pas front officiel caché |
 | Plan de surveillance | `PLAN-GOUVERNANCE-EQUIALGO.md` : rôles, fréquence, seuils proposés, escalades, recours, arrêt et reprise | Livré ; seuils non officiels, rôles à attribuer avant un éventuel usage réel |
 | `presentation.pdf` | Support de sept diapositives et `PITCH-EQUIALGO.md` minuté pour cinq minutes | Livré ; répétition orale par l'équipe encore nécessaire |
-| Dépôt GitHub public ou partagé avec le jury | Instructions dans `README-EQUIALGO.md` | À réaliser manuellement : aucun remote configuré à la racine, aucun accès des juges confirmé |
+| Dépôt GitHub public ou partagé avec le jury | `https://github.com/yasserzanari/CodeMl2026-EquiAlgo` | Public; page et livrables visibles sans connexion lors du contrôle du 3 octobre 2026 |
 | Exécuter le notebook officiel avant modification | Rejeu intégral des cellules officielles dans `baseline_officielle/` | Exécution actuelle confirmée ; la chronologie « avant toute modification » des anciens travaux n'est pas attestée |
 
 Le support de pitch, le code et les résultats ne sont pas des garanties de points. Le jury apprécie le diagnostic (25), la technique (35), la gouvernance (25), le pitch et le code (15). Les deux composantes techniques nécessitent la référence indépendante non fournie. L'erreur d'enveloppe donnerait zéro aux deux composantes ; cette erreur n'est pas présente ici.
@@ -35,7 +35,7 @@ Les statuts portent sur la preuve de l'affirmation, pas sur la qualité globale 
 | La règle est équitable au sens du mérite réel | not tested | Référence absente ; les décisions historiques ne la remplacent pas |
 | La correction supprime causalement les effets des inégalités | not tested | Retrait de termes directs d'un modèle associatif ; R/heures peuvent rester des proxies |
 | Le système est prêt à décider en production réelle | partially supported | Code et proposition de gouvernance présents ; définition du mérite, approbations, rôles, données indépendantes et validation externe manquent |
-| Le dossier est accessible aux juges | not tested | Partage externe non effectué ni confirmé |
+| Le dépôt est accessible aux juges | supported | Dépôt public vérifié : `https://github.com/yasserzanari/CodeMl2026-EquiAlgo` |
 
 ## Sources, indépendance et limites
 
@@ -49,4 +49,4 @@ Le CSV et le code du modèle ont été figés pendant les compléments. Les rés
 
 Les preuves machine sont `artifacts/equialgo/complements_20261003/verification_independante.json`, `verification_integration.json`, et les vérifications propres aux sous-dossiers. Les figures sont inspectées séparément. Le notebook est exécuté de haut en bas et sauvegardé avec sorties ; la mise en page HTML globale reste à regarder manuellement dans Jupyter, l'accès local par navigateur étant bloqué dans cet environnement.
 
-Actions humaines restantes : relire les choix normatifs, répéter le pitch, vérifier le rendu du notebook dans Jupyter, partager le dépôt avec les juges et soumettre les fichiers soi-même. Aucun envoi HxBuddy, push, partage GitHub ou dépôt Devpost n'a été réalisé.
+Actions humaines restantes : relire les choix normatifs, répéter le pitch, vérifier le rendu du notebook dans Jupyter, transmettre les prédictions à HxBuddy si requis et finaliser la soumission Devpost. Le dépôt GitHub est public et contient les livrables; aucun envoi HxBuddy ni soumission finale Devpost n'a été effectué.

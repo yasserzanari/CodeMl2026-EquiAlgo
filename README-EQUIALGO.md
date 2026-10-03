@@ -47,8 +47,8 @@ Ces scripts écrivent leurs résultats dans leur sous-dossier dédié, sans chan
 ## Soumission manuelle
 
 1. Lire le notebook et répéter le pitch avec son script. Vérifier que les choix normatifs sont défendables par l'équipe.
-2. Préparer le dépôt du défi, avec les livrables et leurs dépendances. Ne pas publier les autres projets, l'environnement `.venv`, les fichiers temporaires ou des informations d'accès. Vérifier les droits de partage des données avant toute publication ; fournir aux juges les données officielles via leur canal autorisé.
-3. Partager le dépôt avec les juges selon le mécanisme officiel et vérifier leur accès. Aucun remote GitHub n'était configuré à la racine lors du contrôle local ; aucune publication ou invitation n'a été effectuée par l'assistant.
+2. Le dépôt du défi est préparé avec les livrables et dépendances nécessaires. Il exclut les jeux de données bruts, l'environnement `.venv`, les fichiers temporaires et les secrets. Les données officielles ne sont pas redistribuées.
+3. Le dépôt public est accessible à `https://github.com/yasserzanari/CodeMl2026-EquiAlgo`. La page et les livrables ont été vérifiés depuis GitHub.
 4. Téléverser soi-même `predictions.csv` dans le défi ÉquiAlgo sur HxBuddy si demandé. Le F1 HxBuddy n'est pas la note IVADO sur 35 points. Conserver le hash avec le résultat dans `RESULTATS-HXBUDDY-EQUIALGO.md`.
 5. Sur Devpost, choisir exactement le prix de ce défi, avec le même nom et les mêmes membres d'équipe que sur HxBuddy.
 
