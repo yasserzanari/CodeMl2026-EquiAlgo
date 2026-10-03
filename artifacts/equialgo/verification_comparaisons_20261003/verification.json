@@ -1,0 +1,71 @@
+{
+  "source_hashes": {
+    "artifacts\\equialgo\\methode_finale_20261003\\resultats\\hors_pli.csv": "03a7a568d15ba1ff37809bf8579619eed30e1decf9a80d8af8b4d1591830dc41",
+    "artifacts\\equialgo\\methode_finale_20261003\\resultats\\modeles_plis.json": "a205007f2fc5e73726cb40fb4dac25ef05c2e67374558e1d48abae57819e70e7",
+    "artifacts\\equialgo\\methode_finale_20261003\\resultats\\selection_interne.json": "9037ca18713a58cfd7e834efbd96e6cdcef77cf176b3cfa15102be520826f695",
+    "artifacts\\equialgo\\methode_finale_20261003\\resultats\\neutralisation_plis.csv": "78f65211c2b9e0658929e8d0eece3d8deed29e944a88497c12cc74bc30c37dff",
+    "artifacts\\equialgo\\complements_20261003\\pareto\\decisions_diagnostic_hors_pli.csv": "f73040c2753ba91b888fd4b87fb314baab573a2c01c3883d9b6c8371b3dec5a5",
+    "data\\equialgo\\data\\donnees_demandes.csv": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+    "data\\equialgo\\data\\candidats_evaluation.csv": "5e6f1fdca94fea5417984fa035c05e1b579ea09b3427a4e0f005a769618eb4a7",
+    "predictions.csv": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+    "artifacts\\equialgo\\verification_comparaisons_20261003\\recalculer.py": "3978bd615f728cd2d6c990766931c6e3f8a1041fd994c6338db8f47b66947624"
+  },
+  "frozen_hashes": {
+    "predictions.csv": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+    "model_corrige.py": "5c5dd4820a10727446da8d9b2a9ff386a89a1e5ffea75b27efa7a51b3ed57d69",
+    "modele_equialgo.json": "2b15cef1bf974534f000b37dc137e80e689297ea2eb1171917d712a10f483fc5"
+  },
+  "replays": [
+    {
+      "fold": 0,
+      "train_n": 8000,
+      "validation_n": 2000,
+      "probability_max_abs_difference": 6.661338147750939e-16,
+      "neutral_weight": 0.13768313457239711,
+      "all_decisions_reproduced": true
+    },
+    {
+      "fold": 1,
+      "train_n": 8000,
+      "validation_n": 2000,
+      "probability_max_abs_difference": 6.661338147750939e-16,
+      "neutral_weight": 0.14441316887141786,
+      "all_decisions_reproduced": true
+    },
+    {
+      "fold": 2,
+      "train_n": 8000,
+      "validation_n": 2000,
+      "probability_max_abs_difference": 1.1102230246251565e-15,
+      "neutral_weight": 0.14857620674730726,
+      "all_decisions_reproduced": true
+    },
+    {
+      "fold": 3,
+      "train_n": 8000,
+      "validation_n": 2000,
+      "probability_max_abs_difference": 8.881784197001252e-16,
+      "neutral_weight": 0.13740852990966979,
+      "all_decisions_reproduced": true
+    },
+    {
+      "fold": 4,
+      "train_n": 8000,
+      "validation_n": 2000,
+      "probability_max_abs_difference": 4.440892098500626e-16,
+      "neutral_weight": 0.1467988850577316,
+      "all_decisions_reproduced": true
+    }
+  ],
+  "manual_confusion_metrics_crosschecked_with_sklearn": true,
+  "stored_metrics_matched": true,
+  "stored_decisions_matched": true,
+  "definition": "gap_k=abs(centre_grants_k/centre_n_k - remote_grants_k/remote_n_k). CV: moyenne arithmétique des cinq gaps_k. Réduction: 100*(1-mean_gap_after/mean_gap_before).",
+  "aggregation_warning": "La moyenne des écarts absolus n’est pas l’écart absolu des taux concaténés. Le F1 moyen n’est pas non plus le F1 concaténé.",
+  "scope": "Réajustement des 5 modèles compacts externes indépendamment du code original. Sélection interne originale lue et auditée, non entièrement recalculée ici.",
+  "selection_bias": "Données déjà explorées et anciens retours HxBuddy connus. Validation de développement, pas test confirmatoire indépendant.",
+  "leakage_scope": "Plis externes reconstruits, train/validation disjoints, prétraitement réajusté sur train uniquement. Aucune fuite détectée sur cette voie; liens non observés et choix antérieurs restent une limite.",
+  "hidden_merit_validated": false,
+  "devpost_modified": false,
+  "submission_modified": false
+}

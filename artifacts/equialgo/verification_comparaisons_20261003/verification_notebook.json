@@ -1,0 +1,15 @@
+{
+  "notebook_sha256": "1cdf2e09345cf822666630492862daef418486486f4548307e027ba3bb11a594",
+  "cells": 25,
+  "code_cells": 10,
+  "errors": 0,
+  "new_kernel_restart_run_all_via_jupyter_ui": true,
+  "saved_via_ui": true,
+  "changed_cells_visually_inspected": [
+    10,
+    11
+  ],
+  "other_cells_previously_reviewed": true,
+  "screenshot": "jupyter-comparaisons.png",
+  "frozen_model_csv_preserved": true
+}
