@@ -1,0 +1,56 @@
+model,fold,n_train,n_valid,auc,unknown_categories
+cote_r_equivalent,0,8000,2000,0.5714578124999999,{}
+cote_r_equivalent,1,8000,2000,0.5511848958333333,{}
+cote_r_equivalent,2,8000,2000,0.5565125,{}
+cote_r_equivalent,3,8000,2000,0.5417536458333333,{}
+cote_r_equivalent,4,8000,2000,0.5844703125,{}
+heures_travail_semaine,0,8000,2000,0.8176223958333333,{}
+heures_travail_semaine,1,8000,2000,0.7936994791666667,{}
+heures_travail_semaine,2,8000,2000,0.8064421875000001,{}
+heures_travail_semaine,3,8000,2000,0.7999125,{}
+heures_travail_semaine,4,8000,2000,0.8084052083333333,{}
+log_revenu,0,8000,2000,0.7005630208333333,{}
+log_revenu,1,8000,2000,0.6677140625,{}
+log_revenu,2,8000,2000,0.6921177083333333,{}
+log_revenu,3,8000,2000,0.7059411458333334,{}
+log_revenu,4,8000,2000,0.6959229166666666,{}
+distance_domicile_campus_km,0,8000,2000,0.9992479166666668,{}
+distance_domicile_campus_km,1,8000,2000,0.9974723958333334,{}
+distance_domicile_campus_km,2,8000,2000,0.9978609375,{}
+distance_domicile_campus_km,3,8000,2000,0.99800625,{}
+distance_domicile_campus_km,4,8000,2000,0.9979416666666667,{}
+premiere_generation_universitaire,0,8000,2000,0.5933333333333334,{}
+premiere_generation_universitaire,1,8000,2000,0.5972916666666667,{}
+premiere_generation_universitaire,2,8000,2000,0.5689583333333333,{}
+premiere_generation_universitaire,3,8000,2000,0.5833333333333334,{}
+premiere_generation_universitaire,4,8000,2000,0.6050000000000001,{}
+code_postal_3,0,8000,2000,1.0,"{""code_postal_3"": 0}"
+code_postal_3,1,8000,2000,1.0,"{""code_postal_3"": 0}"
+code_postal_3,2,8000,2000,1.0,"{""code_postal_3"": 0}"
+code_postal_3,3,8000,2000,1.0,"{""code_postal_3"": 0}"
+code_postal_3,4,8000,2000,1.0,"{""code_postal_3"": 0}"
+programme_etudes,0,8000,2000,0.57024375,"{""programme_etudes"": 0}"
+programme_etudes,1,8000,2000,0.5400140625000001,"{""programme_etudes"": 0}"
+programme_etudes,2,8000,2000,0.5672229166666667,"{""programme_etudes"": 0}"
+programme_etudes,3,8000,2000,0.5486994791666666,"{""programme_etudes"": 0}"
+programme_etudes,4,8000,2000,0.5378885416666667,"{""programme_etudes"": 0}"
+R_heures,0,8000,2000,0.8244447916666666,{}
+R_heures,1,8000,2000,0.798534375,{}
+R_heures,2,8000,2000,0.8100802083333334,{}
+R_heures,3,8000,2000,0.8041869791666667,{}
+R_heures,4,8000,2000,0.8141270833333334,{}
+ensemble_sans_postal,0,8000,2000,0.9997052083333333,"{""programme_etudes"": 0}"
+ensemble_sans_postal,1,8000,2000,0.99731875,"{""programme_etudes"": 0}"
+ensemble_sans_postal,2,8000,2000,0.9988260416666667,"{""programme_etudes"": 0}"
+ensemble_sans_postal,3,8000,2000,0.9988895833333333,"{""programme_etudes"": 0}"
+ensemble_sans_postal,4,8000,2000,0.9991895833333333,"{""programme_etudes"": 0}"
+ensemble,0,8000,2000,1.0,"{""code_postal_3"": 0, ""programme_etudes"": 0}"
+ensemble,1,8000,2000,0.9999875,"{""code_postal_3"": 0, ""programme_etudes"": 0}"
+ensemble,2,8000,2000,1.0,"{""code_postal_3"": 0, ""programme_etudes"": 0}"
+ensemble,3,8000,2000,1.0,"{""code_postal_3"": 0, ""programme_etudes"": 0}"
+ensemble,4,8000,2000,1.0,"{""code_postal_3"": 0, ""programme_etudes"": 0}"
+controle_permute,0,8000,2000,0.5113410484468701,"{""programme_etudes"": 0}"
+controle_permute,1,8000,2000,0.49157656866680044,"{""programme_etudes"": 0}"
+controle_permute,2,8000,2000,0.5257650997292121,"{""programme_etudes"": 0}"
+controle_permute,3,8000,2000,0.5182962135190623,"{""programme_etudes"": 0}"
+controle_permute,4,8000,2000,0.5111075738328802,"{""programme_etudes"": 0}"

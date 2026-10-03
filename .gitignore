@@ -21,3 +21,6 @@ venv/
 node_modules/
 .DS_Store
 Thumbs.db
+
+# Données fournies par le canal officiel du défi
+/data/equialgo/data/

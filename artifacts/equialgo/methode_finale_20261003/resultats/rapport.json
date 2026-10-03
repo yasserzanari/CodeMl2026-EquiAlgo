@@ -1,0 +1,142 @@
+{
+  "input_hashes": {
+    "C:\\Users\\PC\\Documents\\ChatGPT\\CODEML 2026\\data\\equialgo\\data\\donnees_demandes.csv": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+    "C:\\Users\\PC\\Documents\\ChatGPT\\CODEML 2026\\data\\equialgo\\data\\candidats_evaluation.csv": "5e6f1fdca94fea5417984fa035c05e1b579ea09b3427a4e0f005a769618eb4a7",
+    "C:\\Users\\PC\\Documents\\ChatGPT\\CODEML 2026\\predictions.csv": "bacd6c51fc234819d9216002b574ebcef3251fc9f3dee224bacc59b51e0db461",
+    "C:\\Users\\PC\\Documents\\ChatGPT\\CODEML 2026\\model_corrige.py": "5c5dd4820a10727446da8d9b2a9ff386a89a1e5ffea75b27efa7a51b3ed57d69",
+    "C:\\Users\\PC\\Documents\\ChatGPT\\CODEML 2026\\artifacts\\equialgo\\methode_finale_20261003\\entrainer.py": "5a5304ea0b8ce1c1d337b37219349c8f2ce632d86b9d4b236cc715731b92fe82",
+    "C:\\Users\\PC\\Documents\\ChatGPT\\CODEML 2026\\artifacts\\equialgo\\methode_finale_20261003\\PROTOCOLE.md": "aabbcd5a25f239ae4ad93d12621a4b67876c1d4716c12a91e280f67c9ad8c240"
+  },
+  "selected_model": {
+    "schema_version": 1,
+    "family": "compact",
+    "C": 0.1,
+    "rate": 0.4,
+    "hours_weight_decimal": "0.14342577944475554",
+    "normative_features": [
+      "cote_r_equivalent",
+      "heures_travail_semaine"
+    ],
+    "neutralisation": 1.0,
+    "regional_quota": false,
+    "score_is_merit_probability": false,
+    "committee_model": {
+      "intercept": -56.003694608296726,
+      "coefficients": {
+        "R": 1.2789591215150515,
+        "heures": 0.18343570888127608,
+        "log_revenu": 1.6500886947903002,
+        "eloigne": -1.7885437120166756
+      }
+    },
+    "historical_data_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+    "code_sha256": "5c5dd4820a10727446da8d9b2a9ff386a89a1e5ffea75b27efa7a51b3ed57d69",
+    "selection": "nested CV / one-standard-error rule, no leaderboard selection",
+    "warnings": [
+      "Context neutralization is a policy choice, not an identified causal correction.",
+      "R and hours can retain structural regional information."
+    ]
+  },
+  "cv_mean_metrics": {
+    "logloss": 0.2597959317757943,
+    "f1_macro": 0.8815722114022421,
+    "accuracy": 0.8868,
+    "brier": 0.08082217146517864,
+    "policy_f1_committee": 0.8430839748769401,
+    "policy_accuracy_committee": 0.8493999999999999,
+    "policy_selection_gap": 0.01533282252487983
+  },
+  "cv_sd_metrics": {
+    "logloss": 0.009650764835636835,
+    "f1_macro": 0.011777907523875768,
+    "accuracy": 0.011300442469213311,
+    "brier": 0.003962982190623464,
+    "policy_f1_committee": 0.00921808738530104,
+    "policy_accuracy_committee": 0.008813342158341517,
+    "policy_selection_gap": 0.009917250264974862
+  },
+  "cv_pooled_committee": {
+    "logloss": 0.2597959317757943,
+    "f1_macro": 0.8815775708756146,
+    "accuracy": 0.8868,
+    "brier": 0.08082217146517867
+  },
+  "bootstrap_hours_weight_percentiles": [
+    0.12927146742512785,
+    0.14331655604096816,
+    0.16083952139542998
+  ],
+  "bootstrap_all_positive": true,
+  "region_stability": [
+    {
+      "excluded_region": "Bas-Saint-Laurent",
+      "hours_weight": 0.15274374207416958
+    },
+    {
+      "excluded_region": "Capitale-Nationale",
+      "hours_weight": 0.14253530071041232
+    },
+    {
+      "excluded_region": "Cote-Nord",
+      "hours_weight": 0.1460126913013664
+    },
+    {
+      "excluded_region": "Gaspesie-Iles-de-la-Madeleine",
+      "hours_weight": 0.1377895656955875
+    },
+    {
+      "excluded_region": "Montreal",
+      "hours_weight": 0.13459088695404822
+    }
+  ],
+  "evaluation_selection_gap": 0.00020716715489055293,
+  "evaluation_group_rates": {
+    "centre": 0.40008431703204045,
+    "eloigne": 0.3998771498771499
+  },
+  "evaluation_region_rates": [
+    {
+      "region": "Bas-Saint-Laurent",
+      "n": 504,
+      "grants": 193,
+      "selection_rate": 0.38293650793650796
+    },
+    {
+      "region": "Capitale-Nationale",
+      "n": 821,
+      "grants": 326,
+      "selection_rate": 0.39707673568818513
+    },
+    {
+      "region": "Cote-Nord",
+      "n": 491,
+      "grants": 195,
+      "selection_rate": 0.3971486761710794
+    },
+    {
+      "region": "Gaspesie-Iles-de-la-Madeleine",
+      "n": 633,
+      "grants": 263,
+      "selection_rate": 0.4154818325434439
+    },
+    {
+      "region": "Montreal",
+      "n": 1551,
+      "grants": 623,
+      "selection_rate": 0.4016763378465506
+    }
+  ],
+  "rows": 4000,
+  "grants": 1600,
+  "quota_percent": 40.0,
+  "candidate_sha256": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+  "historical_best_unchanged": true,
+  "true_merit_f1": null,
+  "official_equal_opportunity": null,
+  "official_35_points": null,
+  "submitted": false,
+  "python": "3.11.8",
+  "numpy": "2.4.6",
+  "pandas": "3.0.6",
+  "sklearn": "1.9.1"
+}

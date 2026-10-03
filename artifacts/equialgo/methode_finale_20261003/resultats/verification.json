@@ -1,0 +1,45 @@
+{
+  "candidate_sha256": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+  "format_verified": true,
+  "rows": 4000,
+  "grants": 1600,
+  "independent_decimal_replay": true,
+  "permutation_invariant": true,
+  "context_invariant": true,
+  "monotonic_score": true,
+  "all_outer_metrics_recomputed": true,
+  "first_nested_fold_reproduced": {
+    "inner_selection_reproduced": true,
+    "max_probability_difference": 1.4432899320127035e-15
+  },
+  "full_model_refit": true,
+  "comparisons_count": 80,
+  "identical_previous": [],
+  "nearest_previous": [
+    {
+      "file": "artifacts/equialgo/audit_final_20261003/snapshot/e5c87541b9c65aefbe6ec89a263be3713b65f46815a99b95491c4ffa20cb6766.csv",
+      "changes": 4
+    },
+    {
+      "file": "artifacts/equialgo/candidats_hxbuddy/H_parite_taux_selection.csv",
+      "changes": 4
+    },
+    {
+      "file": "artifacts/equialgo/archive/predictions_794a6112c26f206e.csv",
+      "changes": 6
+    },
+    {
+      "file": "artifacts/equialgo/audit_final_20261003/snapshot/794a6112c26f206e268d024241c21afa18b6569d387f42474ef98a64e460da79.csv",
+      "changes": 6
+    },
+    {
+      "file": "artifacts/equialgo/candidats_hxbuddy/C_cote_R_travail.csv",
+      "changes": 6
+    }
+  ],
+  "changes_vs_historical_best": 50,
+  "entries": 0,
+  "exits": 50,
+  "true_merit_validated": false,
+  "old_best_unchanged": true
+}

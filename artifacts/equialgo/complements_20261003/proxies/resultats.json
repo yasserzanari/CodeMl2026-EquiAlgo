@@ -1,0 +1,193 @@
+{
+  "historical_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "oof_policy_sha256": "03a7a568d15ba1ff37809bf8579619eed30e1decf9a80d8af8b4d1591830dc41",
+  "code_sha256": "9b99a642cbea19dc1d5af77a29b9ecd89af96afe34d804da1f8c9ee604d1110b",
+  "protocol_sha256": "8cff9651a85c3d6b078cf05bd0ed27ce5cafd16bac60ae3c8e3eb3766a47297c",
+  "seed": 20261013,
+  "permutation_seed": 20261014,
+  "rows": 10000,
+  "n_centre": 6000,
+  "n_eloigne": 4000,
+  "folds": 5,
+  "models": 11,
+  "fits": 55,
+  "auc": [
+    {
+      "model": "cote_r_equivalent",
+      "label": "Cote R",
+      "auc_oof": 0.5606594583333333,
+      "auc_mean": 0.5610758333333333,
+      "auc_min": 0.5417536458333333,
+      "auc_max": 0.5844703125,
+      "auc_sd": 0.01693434920820607
+    },
+    {
+      "model": "heures_travail_semaine",
+      "label": "Heures travaillées",
+      "auc_oof": 0.8046457708333332,
+      "auc_mean": 0.8052163541666666,
+      "auc_min": 0.7936994791666667,
+      "auc_max": 0.8176223958333333,
+      "auc_sd": 0.009032588317854104
+    },
+    {
+      "model": "log_revenu",
+      "label": "Log du revenu",
+      "auc_oof": 0.6923951041666666,
+      "auc_mean": 0.6924517708333333,
+      "auc_min": 0.6677140625,
+      "auc_max": 0.7059411458333334,
+      "auc_sd": 0.014763724794139618
+    },
+    {
+      "model": "distance_domicile_campus_km",
+      "label": "Distance au campus",
+      "auc_oof": 0.9981008333333333,
+      "auc_mean": 0.9981058333333334,
+      "auc_min": 0.9974723958333334,
+      "auc_max": 0.9992479166666668,
+      "auc_sd": 0.0006712747035660014
+    },
+    {
+      "model": "premiere_generation_universitaire",
+      "label": "Première génération",
+      "auc_oof": 0.5825849583333333,
+      "auc_mean": 0.5895833333333333,
+      "auc_min": 0.5689583333333333,
+      "auc_max": 0.6050000000000001,
+      "auc_sd": 0.013924866596209201
+    },
+    {
+      "model": "code_postal_3",
+      "label": "Code postal",
+      "auc_oof": 1.0,
+      "auc_mean": 1.0,
+      "auc_min": 1.0,
+      "auc_max": 1.0,
+      "auc_sd": 0.0
+    },
+    {
+      "model": "programme_etudes",
+      "label": "Programme",
+      "auc_oof": 0.5483514583333333,
+      "auc_mean": 0.55281375,
+      "auc_min": 0.5378885416666667,
+      "auc_max": 0.57024375,
+      "auc_sd": 0.015124070652513293
+    },
+    {
+      "model": "R_heures",
+      "label": "Cote R + heures",
+      "auc_oof": 0.8101105624999999,
+      "auc_mean": 0.8102746875,
+      "auc_min": 0.798534375,
+      "auc_max": 0.8244447916666666,
+      "auc_sd": 0.009881368304118185
+    },
+    {
+      "model": "ensemble_sans_postal",
+      "label": "Ensemble sans postal",
+      "auc_oof": 0.9987927083333333,
+      "auc_mean": 0.9987858333333334,
+      "auc_min": 0.99731875,
+      "auc_max": 0.9997052083333333,
+      "auc_sd": 0.0008906428482616835
+    },
+    {
+      "model": "ensemble",
+      "label": "Ensemble avec postal",
+      "auc_oof": 0.999998375,
+      "auc_mean": 0.9999974999999999,
+      "auc_min": 0.9999875,
+      "auc_max": 1.0,
+      "auc_sd": 5.590169943736446e-06
+    },
+    {
+      "model": "controle_permute",
+      "label": "Contrôle permuté",
+      "auc_oof": 0.5099105833333333,
+      "auc_mean": 0.5116173008389651,
+      "auc_min": 0.49157656866680044,
+      "auc_max": 0.5257650997292121,
+      "auc_sd": 0.012715494200271424
+    }
+  ],
+  "rates": [
+    {
+      "level": "group",
+      "group": "Centres",
+      "n": 6000,
+      "committee_rate": 0.4836666666666667,
+      "committee_model_oof_rate": 0.4796666666666667,
+      "policy_oof_rate": 0.403
+    },
+    {
+      "level": "group",
+      "group": "Régions éloignées",
+      "n": 4000,
+      "committee_rate": 0.273,
+      "committee_model_oof_rate": 0.257,
+      "policy_oof_rate": 0.3955
+    },
+    {
+      "level": "region_administrative",
+      "group": "Bas-Saint-Laurent",
+      "n": 1293,
+      "committee_rate": 0.2691415313225058,
+      "committee_model_oof_rate": 0.2559938128383604,
+      "policy_oof_rate": 0.3874709976798144
+    },
+    {
+      "level": "region_administrative",
+      "group": "Capitale-Nationale",
+      "n": 1999,
+      "committee_rate": 0.4842421210605303,
+      "committee_model_oof_rate": 0.4832416208104052,
+      "policy_oof_rate": 0.40820410205102553
+    },
+    {
+      "level": "region_administrative",
+      "group": "Cote-Nord",
+      "n": 1178,
+      "committee_rate": 0.2631578947368421,
+      "committee_model_oof_rate": 0.25127334465195245,
+      "policy_oof_rate": 0.3930390492359932
+    },
+    {
+      "level": "region_administrative",
+      "group": "Gaspesie-Iles-de-la-Madeleine",
+      "n": 1529,
+      "committee_rate": 0.2838456507521256,
+      "committee_model_oof_rate": 0.2622629169391759,
+      "policy_oof_rate": 0.40418574231523874
+    },
+    {
+      "level": "region_administrative",
+      "group": "Montreal",
+      "n": 4001,
+      "committee_rate": 0.4833791552111972,
+      "committee_model_oof_rate": 0.4778805298675331,
+      "policy_oof_rate": 0.40039990002499376
+    }
+  ],
+  "checks": {
+    "unique_ids": true,
+    "no_missing": true,
+    "no_duplicate_features": true,
+    "exactly_one_oof_prediction_per_row_model": true,
+    "disjoint_folds": true,
+    "no_forbidden_feature": true,
+    "all_models_converged": true
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1"
+  },
+  "limits": [
+    "Associations, not causal effects",
+    "No merit labels, no equal-opportunity claim",
+    "Linear log-odds diagnostic cannot exclude nonlinear proxies",
+    "Known regions and exchangeable applicants; no temporal/household validation"
+  ]
+}

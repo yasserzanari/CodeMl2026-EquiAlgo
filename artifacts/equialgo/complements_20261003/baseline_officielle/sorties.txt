@@ -1,0 +1,81 @@
+Cellule 2
+10000 dossiers historiques, 4000 a evaluer
+
+Cellule 3
+<class 'pandas.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 10 columns):
+ #   Column                             Non-Null Count  Dtype
+---  ------                             --------------  -----
+ 0   id_candidat                        10000 non-null  str
+ 1   cote_r_equivalent                  10000 non-null  float64
+ 2   programme_etudes                   10000 non-null  str
+ 3   region_administrative              10000 non-null  str
+ 4   code_postal_3                      10000 non-null  str
+ 5   revenu_familial_estime             10000 non-null  int64
+ 6   heures_travail_semaine             10000 non-null  int64
+ 7   distance_domicile_campus_km        10000 non-null  float64
+ 8   premiere_generation_universitaire  10000 non-null  int64
+ 9   decision_octroi                    10000 non-null  int64
+dtypes: float64(2), int64(4), str(4)
+memory usage: 1.1 MB
+
+                                     count unique       top        mean
+id_candidat                          10000  10000   C008033         NaN
+cote_r_equivalent                  10000.0    NaN       NaN   27.722834
+programme_etudes                     10000      5     Genie         NaN
+region_administrative                10000      5  Montreal         NaN
+code_postal_3                        10000     18       H4L         NaN
+revenu_familial_estime             10000.0    NaN       NaN  68165.9014
+heures_travail_semaine             10000.0    NaN       NaN      10.591
+distance_domicile_campus_km        10000.0    NaN       NaN   100.45707
+premiere_generation_universitaire  10000.0    NaN       NaN      0.3365
+decision_octroi                    10000.0    NaN       NaN      0.3994
+
+Cellule 5
+                               candidats  taux_octroi  cote_r_moyenne
+region_administrative
+Cote-Nord                           1178        0.263          27.325
+Bas-Saint-Laurent                   1293        0.269          27.296
+Gaspesie-Iles-de-la-Madeleine       1529        0.284          27.354
+Montreal                            4001        0.483          27.988
+Capitale-Nationale                  1999        0.484          27.984
+
+groupe
+Centre      0.484
+Eloignee    0.273
+Name: decision_octroi, dtype: float64
+
+Cellule 8
+Exactitude globale : 88.13%
+
+              precision    recall  f1-score   support
+
+           0      0.890     0.916     0.903      1802
+           1      0.867     0.830     0.848      1198
+
+    accuracy                          0.881      3000
+   macro avg      0.879     0.873     0.875      3000
+weighted avg      0.881     0.881     0.881      3000
+
+
+Cellule 11
+                     exactitude  taux_selection  taux_vrais_positifs
+sensitive_feature_0
+Centre                   0.8777          0.4586               0.8475
+Eloignee                 0.8865          0.2710               0.7847
+
+Ecart de parite demographique : 0.1876
+
+Cellule 14
+toutes les colonnes                        exactitude 0.8813   ecart parite 0.1876
+
+Cellule 14
+sans region_administrative                 exactitude 0.8837   ecart parite 0.1805
+
+Cellule 14
+sans region ni code postal                 exactitude 0.8793   ecart parite 0.1731
+
+Cellule 17
+4000 lignes ecrites dans predictions.csv
+Taux d'octroi : 39.1% - OK

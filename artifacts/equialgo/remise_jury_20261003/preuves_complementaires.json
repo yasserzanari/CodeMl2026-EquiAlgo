@@ -1,0 +1,44 @@
+{
+  "candidate_sha256": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+  "rows": 4000,
+  "grants": 1600,
+  "official_min": 1440,
+  "official_max": 1760,
+  "remote_n": 1628,
+  "centre_n": 2372,
+  "remote_grants": 651,
+  "centre_grants": 949,
+  "minimum_possible_gap": 0.00020716715489055293,
+  "observed_gap": 0.00020716715489055293,
+  "bootstrap_replicates": 200,
+  "always_selected": 1569,
+  "never_selected": 2369,
+  "variable_selection": 62,
+  "changed_decision_quantiles": {
+    "0": 0.0,
+    "0.025": 0.0,
+    "0.5": 6.0,
+    "0.975": 24.0,
+    "1": 38.0
+  },
+  "comparison_fixed_budget": [
+    {
+      "neutralisation": 0.0,
+      "accuracy_committee": 0.8876,
+      "f1_committee": 0.8828860504781609
+    },
+    {
+      "neutralisation": 1.0,
+      "accuracy_committee": 0.8493999999999999,
+      "f1_committee": 0.8430839748769401
+    }
+  ],
+  "caveat": "Stabilité conditionnelle de l’allocation, pas probabilité de mérite ni incertitude normative.",
+  "sources": {
+    "predictions.csv": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+    "modele_equialgo.json": "2b15cef1bf974534f000b37dc137e80e689297ea2eb1171917d712a10f483fc5",
+    "data/equialgo/data/candidats_evaluation.csv": "5e6f1fdca94fea5417984fa035c05e1b579ea09b3427a4e0f005a769618eb4a7",
+    "artifacts/equialgo/methode_finale_20261003/resultats/bootstrap_poids.csv": "e5d296c635f8336fc1842142eca0d7340f784f4e6278b121fda30981633349a7",
+    "artifacts/equialgo/methode_finale_20261003/resultats/neutralisation_plis.csv": "78f65211c2b9e0658929e8d0eece3d8deed29e944a88497c12cc74bc30c37dff"
+  }
+}

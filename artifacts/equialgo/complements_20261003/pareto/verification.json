@@ -1,0 +1,32 @@
+{
+  "epsilon_grid": [
+    0,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    null
+  ],
+  "budget": 0.4,
+  "source_hashes": {
+    "artifacts\\equialgo\\methode_finale_20261003\\resultats\\hors_pli.csv": "03a7a568d15ba1ff37809bf8579619eed30e1decf9a80d8af8b4d1591830dc41",
+    "artifacts\\equialgo\\methode_finale_20261003\\resultats\\audit_evaluation.csv": "63f71ece955d0427eb1be57afbb0213bbd4c6a4aa897dc6b9cf0ea9af0f4b14b",
+    "predictions.csv": "0120f838852cf652c01bcee39ee0ef453d2591a4b5394d033a506b4d48de18c6",
+    "artifacts\\equialgo\\complements_20261003\\pareto\\PROTOCOLE.md": "d52ca594ce9e904ada8ba37784d6234b8cbf26ad9446554e1213308603f252d4",
+    "artifacts\\equialgo\\complements_20261003\\pareto\\balayage.py": "49c7f64abc8c28d7a235de693384ad9ba5f4f1ba670ca817e1d3a96c08642e99"
+  },
+  "checks": {
+    "exhaustive_small_cases": true,
+    "budget": true,
+    "exact_rational_constraint": true,
+    "monotonic_objective": true,
+    "permutation_invariance": true,
+    "recommended_csv_unchanged": true,
+    "unconstrained_final_replayed": true
+  },
+  "note": "Front observable auxiliaire contre le comité biaisé. Aucune performance contre mérite ni égalité des chances réelle disponible."
+}

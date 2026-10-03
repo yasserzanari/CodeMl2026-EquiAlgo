@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "family": "compact",
+  "C": 0.1,
+  "rate": 0.4,
+  "hours_weight_decimal": "0.14342577944475554",
+  "normative_features": [
+    "cote_r_equivalent",
+    "heures_travail_semaine"
+  ],
+  "neutralisation": 1.0,
+  "regional_quota": false,
+  "score_is_merit_probability": false,
+  "committee_model": {
+    "intercept": -56.003694608296726,
+    "coefficients": {
+      "R": 1.2789591215150515,
+      "heures": 0.18343570888127608,
+      "log_revenu": 1.6500886947903002,
+      "eloigne": -1.7885437120166756
+    }
+  },
+  "historical_data_sha256": "a3ce4e56b691daa163e3a455a88e76f85e3a1c8e201293fd3a87516b163c1f6d",
+  "code_sha256": "5c5dd4820a10727446da8d9b2a9ff386a89a1e5ffea75b27efa7a51b3ed57d69",
+  "selection": "nested CV / one-standard-error rule, no leaderboard selection",
+  "warnings": [
+    "Context neutralization is a policy choice, not an identified causal correction.",
+    "R and hours can retain structural regional information."
+  ]
+}

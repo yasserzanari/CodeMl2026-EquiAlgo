@@ -1,0 +1,10 @@
+{
+  "rank_auc_recomputed": true,
+  "all_55_fold_auc_match": true,
+  "all_11_pooled_auc_match": true,
+  "source_code_protocol_hashes_match": true,
+  "ids_order_and_fold_coverage": true,
+  "unknown_validation_categories": 0,
+  "postal_categories": 18,
+  "visual_qa": "Both figures inspected: labels, axes, legend and units readable; no clipping."
+}
